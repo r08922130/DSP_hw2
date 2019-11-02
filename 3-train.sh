@@ -9,7 +9,7 @@ maxiterinc=5                                 # Last iter to increase #Gauss on.
 numgauss=330                                    # Initial num-Gauss (must be more than #states=3*phones).
 totgauss=495                                    # Target #Gaussians.
 incgauss=$[($totgauss-$numgauss)/$maxiterinc] # per-iter increment for #Gauss
-realign_iters="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30";
+realign_iters="1 2 3 4 5 6 7 8 9 11 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30";
 scale_opts="--transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1"
 ###
 
